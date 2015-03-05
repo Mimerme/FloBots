@@ -1,0 +1,35 @@
+body,html{
+height:100%;
+width:100%;
+background-image: url(https://seatgeek.com/tba/wp-content/uploads/2013/04/flo.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+background-color:white;
+}
+#text{
+background-color:rgba(255,255,255,0.9);
+width:70%;
+
+   
+margin-left:auto;
+margin-right: auto;    
+}
+#bio,#Anno{
+background-color:rgba(233,150,122,255);
+border: 1px solid rgba(220,20,60,255);
+text-align: center;
+font-size: 50px;    
+font-family: TitleFont;    
+cursor:pointer;    
+}
+@font-face {
+    font-family: TitleFont;
+    /*a name to be used later*/
+    src: url(/fonts/cool.TTF);
+    /*URL to font*/
+}
